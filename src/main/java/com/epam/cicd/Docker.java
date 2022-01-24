@@ -27,4 +27,10 @@ public class Docker {
     }
 
 
+    @GetMapping("/hello3")
+    public String sayDocker3(){
+        return "Docker hello hello heloooooo3333";
+    }
+
+
 }
