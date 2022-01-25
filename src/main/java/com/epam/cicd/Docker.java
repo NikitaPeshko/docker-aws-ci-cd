@@ -2,6 +2,7 @@ package com.epam.cicd;
 
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -21,16 +22,13 @@ public class Docker {
         return "Docker hello hello heloooooo";
     }
 
-    @GetMapping("/hello2")
-    public String sayDocker2(){
-        return "Docker hello hello heloooooo222";
+    @GetMapping("/hello/{name}")
+    public String sayDocker2(@PathVariable("name")String name){
+        return "Hello"+name;
     }
 
 
-    @GetMapping("/hello3")
-    public String sayDocker3(){
-        return "Docker hello hello heloooooo3333";
-    }
+
 
 
 }
