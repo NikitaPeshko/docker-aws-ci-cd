@@ -15,7 +15,10 @@
     <name>cicd</name>
     <description>cicd</description>
     <properties>
-        <java.version>8</java.version>
+        <java.version>17</java.version>
+        <start-class>
+            com.epam.cicd.CicdApplication
+        </start-class>
     </properties>
     <dependencies>
         <dependency>
@@ -27,6 +30,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
