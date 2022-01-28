@@ -28,6 +28,13 @@ public class Docker {
     }
 
 
+    @GetMapping("/hello2/{name}")
+    public String sayDocker222(@PathVariable("name")String name){
+        return "Hello 2"+name;
+    }
+
+
+
 
 
 
