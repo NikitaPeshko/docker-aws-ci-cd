@@ -23,8 +23,7 @@ public class Main {
 //        Person.Accaunt accaunt=person.new Accaunt("dvbsvbxn");;
         int num=-1;
         if(num<1) throw new FactorialException("The number is less than 1", num);
-        System.out.println();
-        System.out.println("fbvnxcbmvxnvcbxn");
+        System.out.println("dvbxncbvxncbv");
 
 
 
