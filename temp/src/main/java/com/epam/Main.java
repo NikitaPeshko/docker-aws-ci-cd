@@ -24,6 +24,7 @@ public class Main {
         int num=-1;
         if(num<1) throw new FactorialException("The number is less than 1", num);
         System.out.println("dvbxncbvxncbv");
+        System.out.println("dvbxncbvxncbv");
 
 
 
