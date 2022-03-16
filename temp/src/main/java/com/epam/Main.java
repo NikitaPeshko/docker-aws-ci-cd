@@ -39,12 +39,7 @@ public class Main {
         System.out.println("dvbxncbvxncbv");
         System.out.println("dvbxncbvxncbv");
         System.out.println("dvbxncbvxncbv");
-        System.out.println("dvbxncbvxncbv");
-        System.out.println("dvbxncbvxncbv");
-        System.out.println("dvbxncbvxncbv");
-        System.out.println("dvbxncbvxncbv");
-        System.out.println("dvbxncbvxncbv");
-        System.out.println("dvbxncbvxncbv");
+
 
 
 
